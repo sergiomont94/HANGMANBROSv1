@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HANGMANBROS</string>
+    <string name="morty">Morty</string>
+    <string name="rick">Rick</string>
+    <string name="medio">Medio</string>
+    <string name="settings">Settings</string>
+</resources>
