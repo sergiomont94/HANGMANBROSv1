@@ -30,17 +30,21 @@
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:background="@android:color/holo_red_dark"
             android:onClick="TheGame"
-            android:text="Play"
+            android:text="@string/Play"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Play" />
 
         <Button
             android:layout_width="match_parent"
+            android:layout_height="0dp"
             android:layout_weight="1"
-            android:onClick="SettingsBoton"
-            android:text="@string/settings" android:layout_height="0dp" />
+            android:onClick="SettingButton"
+            android:text="@string/settings"
+            tools:text="Dificultad" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

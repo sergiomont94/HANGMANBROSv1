@@ -21,7 +21,7 @@ public class Dificultad extends AppCompatActivity {
 
 
     @SuppressLint({"NewApi"})
-    @Override
+    //@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dificultad);
@@ -31,6 +31,18 @@ public class Dificultad extends AppCompatActivity {
     public void Morty_dif(View view){
         Intent intent = new Intent(this, TheGame.class);
         intent.putExtra("Numero de vidas: ",5);
+        this.startActivity(intent);
     }
 // aqui falta la dificultad mediana y dif Rick
+    public void Mediana_dif(View view){
+        Intent intent = new Intent(this, TheGame.class);
+        intent.putExtra("numero de vidas",3);
+        this.startActivity(intent);
+    }
+
+    public void Rick_dif(View view){
+        Intent intent = new Intent(this, TheGame.class);
+        intent.putExtra("numero de vidas",1);
+        this.startActivity(intent);
+    }
 }

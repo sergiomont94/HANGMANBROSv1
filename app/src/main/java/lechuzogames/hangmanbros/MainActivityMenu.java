@@ -21,11 +21,9 @@ public class MainActivityMenu extends AppCompatActivity {
 
 
 
-    public void SettingsBoton(View view) {
+    public void SettingButton(View view) {
         Intent intent = new Intent(this, Dificultad.class);
-        // EditText editText = (EditText) findViewById(R.id.edit_message);
-        //String message = editText.getText().toString();
-        //intent.putExtra(EXTRA_MESSAGE, message);
+    ///crear clase player para ver score
         startActivity(intent);
     }
 

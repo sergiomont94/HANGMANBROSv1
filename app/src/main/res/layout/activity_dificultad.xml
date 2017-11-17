@@ -45,6 +45,7 @@
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="Mediana_dif"
             android:text="@string/medio" />
     </LinearLayout>
 
@@ -64,6 +65,7 @@
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="Rick_dif"
             android:text="@string/rick" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
