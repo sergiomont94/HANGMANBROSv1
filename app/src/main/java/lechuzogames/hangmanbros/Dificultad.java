@@ -32,5 +32,5 @@ public class Dificultad extends AppCompatActivity {
         Intent intent = new Intent(this, TheGame.class);
         intent.putExtra("Numero de vidas: ",5);
     }
-
+// aqui falta la dificultad mediana y dif Rick
 }
